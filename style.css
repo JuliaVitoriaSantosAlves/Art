@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login__principal {
+    margin-top: 6rem;
+}
+
+.ancora {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    padding: 0.5em 3em;
+    margin-top: 1em;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+.body__index {
+    margin-top: 3rem;
+}
+
+.index {
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.index a {
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5em 2em;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #000;
+    background-color: greenyellow;
+}
