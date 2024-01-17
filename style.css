@@ -23,14 +23,31 @@
 }
 
 .index {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 73% 27%;
+    grid-template-areas:
+    "t t"
+    "b b";
+    gap: 1em;
     align-items: center;
-    justify-content: center;
-    height: 80vh;
+    width: 95vw;
+    height: 91vh;
+}
+
+.index__text {
+    margin-bottom: 2rem;
+    grid-area: t;
+}
+
+.index__button {
+    grid-area: b;
+    margin-top: 2em;
 }
 
 .index a {
     text-decoration: none;
-    margin: 0 1rem;
+    margin: auto 3rem;
     padding: 0.5em 2em;
     font-weight: 700;
     border-radius: 10px;
